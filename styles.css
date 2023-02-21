@@ -1,0 +1,151 @@
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    margin: 47px 0 0 42px;
+}
+
+.link-header {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    text-align: center;
+    letter-spacing: 0.875px;
+    color: #17233D;
+    cursor: pointer;
+    margin-right: 32px;
+}
+
+.link-header:hover {
+    opacity: .4;
+}
+
+button {
+    Width: 124px;
+    height: 51px;
+    color: #FFFFFF;
+    background: #6FBF44;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+button:active {
+    opacity: .5;
+}
+
+section {
+    display: inline-block;
+    width: 493px;
+    margin-left: 85px;
+}
+
+.logo-image {
+    width: 595.18px;
+    height: 500px;
+    margin-top: 163px;
+    margin-left: 121px;
+    display: inline-block;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 62px;
+    line-height: 82px;
+    color: #161A49;
+    letter-spacing: 0.596154px;
+}
+
+p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 33px;
+    color: #4B505A;
+
+    margin: 32px 0 55px 0;
+    text-align: justify;
+    letter-spacing: 0.5px;
+}
+
+.saiba-mais {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    color: #6FBF44;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+.saiba-mais:hover {
+    opacity: 0.8;
+}
+
+.saiba-mais:active {
+    opacity: .5;
+}
+
+@media screen and (max-width:800px) {
+    .link-header {
+        display: none;
+    }
+
+    header {
+        display: flex;
+        justify-content: end;
+        margin: 17px 15px 0 0;
+    }
+
+    button {
+        width: 91px;
+        height: 31px;
+    }
+
+    section {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        height: auto;
+    }
+
+    h1 {
+        font-size: 30px;
+        line-height: 30px;
+        width: 278px;
+        height: 60px;
+        text-align: center;
+        margin: 83px auto 0;
+    }
+
+    p {
+        font-size: 18px;
+        line-height: 33px;
+        width: 304px;
+        height: 165px;
+        text-align: center;
+        margin: 29px auto;
+    }
+
+
+    .saiba-mais {
+        text-align: center;
+        margin: 0 auto;
+        display: block;
+    }
+
+    .logo-image {
+        width: 80%;
+        height: auto;
+        position: absolute;
+        margin: 490px 39px;
+    }
+
+
+}
